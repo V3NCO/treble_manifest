@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="bitbucket" fetch="https://bitbucket.org/projectmatrixx" />
-  <project path="vendor/gapps" name="android_vendor_gapps" remote="bitbucket"  revision="refs/heads/14.0" clone-depth="1" />
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 </manifest>
